@@ -12,10 +12,10 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results")
 NUM_USERS = 100          
 WINDOW_SIZE = 128       
 FEATURES = 6            
-FL_ROUNDS = 5           # Chạy 5 vòng gộp Server
+FL_ROUNDS = 50           #  
 LOCAL_EPOCHS = 5        # Tăng lên 5 Epochs để AI học sâu hơn
 LEARNING_RATE = 0.001
-BATCH_SIZE = 256
+BATCH_SIZE = 128
 
 def setup_env():
     os.makedirs(PROCESSED_DIR, exist_ok=True)
