@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="F1-architecture-recreated" name="Page-1">
+    <mxGraphModel dx="2357" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1644" pageHeight="988" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge33" edge="1" parent="1" source="phone9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="660" />
+              <mxPoint x="155" y="933" />
+              <mxPoint x="1323" y="933" />
+            </Array>
+            <mxPoint x="155" y="670" as="sourcePoint" />
+            <mxPoint x="1323" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="651" />
+            </Array>
+            <mxPoint x="326" y="484" as="sourcePoint" />
+            <mxPoint x="446" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="276" />
+            </Array>
+            <mxPoint x="326" y="484" as="sourcePoint" />
+            <mxPoint x="446" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boundary2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#A680B8;strokeWidth=5;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="935" width="812" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#F19C99,#3B3B3B);strokeWidth=5;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="937" width="634" x="936" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ztline4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#ff6600;strokeWidth=7;dashed=1;dashPattern=12 12;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872" y="20" as="sourcePoint" />
+            <mxPoint x="871.67" y="894" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=29;align=center;" value="&lt;b&gt;Client-Side&lt;/b&gt; (EDGE Devices)" vertex="1">
+          <mxGeometry height="43" width="390" x="215" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="txt6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontColor=#e00000;fontStyle=1;fontSize=28;" value="Zero-Trust Boundary I:&lt;br&gt;&quot;Never Trust, Always Verify&quot;" vertex="1">
+          <mxGeometry height="65" width="405" x="213" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="txt7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=29;align=center;" value="&lt;b&gt;Server-Side&lt;/b&gt; (Central Cloud)" vertex="1">
+          <mxGeometry height="43" width="430" x="1102" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="txt8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontColor=#e00000;fontStyle=1;fontSize=28;" value="Zero-Trust Boundary II:&lt;br&gt;&quot;Assume Breach&quot;" vertex="1">
+          <mxGeometry height="65" width="415" x="1115" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phone9" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=4;fontFamily=Arial;fontSize=28;" value="" vertex="1">
+          <mxGeometry height="340" width="246" x="38" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sensor10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;" value="Sensors&lt;br&gt;(Acc &amp;amp; Gyro)" vertex="1">
+          <mxGeometry height="260" width="199" x="64" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="txt11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=27;fontStyle=1;" value="&lt;b&gt;Mobile Client&lt;/b&gt; &lt;i&gt;C&lt;sub&gt;i&lt;/sub&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="42" width="252" x="50" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="module12" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#d9e8fb;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="Module 1:&lt;br&gt;Feature Extractor&lt;br&gt;(1D-CNN + LSTM)" vertex="1">
+          <mxGeometry height="126" width="304" x="446" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="module13" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="Module 2:&lt;br&gt;Neuro-Fuzzy&lt;br&gt;Trust Evaluator" vertex="1">
+          <mxGeometry height="126" width="304" x="446" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="module14" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="ZT Enforcement&lt;br&gt;Lockout if &lt;i&gt;p&lt;sub&gt;t&lt;/sub&gt; &amp;lt; τ&lt;/i&gt;" vertex="1">
+          <mxGeometry height="102" width="304" x="446" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="barrier15" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="ZT Network Barrier:&lt;br&gt;Explicitly Blocks&lt;br&gt;Training Metrics &amp;amp;&lt;br&gt;Raw Sensor Data" vertex="1">
+          <mxGeometry height="201" width="397" x="674" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="agg16" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="Aggregation Engine:&lt;br&gt;Validation-Driven&lt;br&gt;Trust Aggregation" vertex="1">
+          <mxGeometry height="180" width="375" x="1155" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="global17" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;fontFamily=Arial;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;spacingTop=8;spacingBottom=8;" value="Updated Global Model&lt;br&gt;(𝓦&lt;sub&gt;G&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="140" width="450" x="1088" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="txt20" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=28;align=left;" value="Upload Local Weights (𝓦&lt;sub&gt;i&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="52" width="380" x="755" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="txt21" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=28;align=left;" value="Upload Trust Score (TS&lt;sub&gt;i&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="52" width="380" x="759" y="643" as="geometry" />
+        </mxCell>
+        <mxCell id="edge24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="484" as="sourcePoint" />
+            <mxPoint x="326" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge27" edge="1" parent="1" source="module12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;strokeWidth=3;" target="barrier15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="276" />
+              <mxPoint x="1004" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge28" edge="1" parent="1" source="module13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;strokeWidth=3;" target="barrier15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="651" />
+              <mxPoint x="1004" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="418" />
+              <mxPoint x="1140" y="418" />
+            </Array>
+            <mxPoint x="1070.9999999999995" y="418.0000000000002" as="sourcePoint" />
+            <mxPoint x="1155" y="418.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1071" y="491" />
+            </Array>
+            <mxPoint x="1070.9999999999995" y="497.0000000000002" as="sourcePoint" />
+            <mxPoint x="1155" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge31" edge="1" parent="1" source="agg16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;" target="global17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1312" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge32" edge="1" parent="1" source="module13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=3;fontFamily=Arial;fontSize=24;" target="module14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="txt19" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=28;fontSize=27;align=left;" value="Validation Set&lt;br&gt;(𝓓&lt;sub&gt;i,val&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="75" width="178" x="292" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="txt18" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=28;fontSize=27;align=left;strokeWidth=2;" value="Training Set&lt;br&gt;(𝓓&lt;sub&gt;i,train&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="75" width="160" x="292" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="txt22" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=27;align=left;" value="Apply Penalty (λ)&lt;br&gt;&amp;amp; Weighted Avg" vertex="1">
+          <mxGeometry height="90" width="225" x="1230" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="txt23" parent="1" style="text;html=1;strokeColor=none;fillColor=default;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontSize=27;" value="Broadcast Updated Global Model (𝓦&lt;sub&gt;G&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="52" width="550" x="598" y="904" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
